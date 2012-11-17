@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DFT::DFT" Collapsed="true">
+    <Position X="9" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAIAQAAAACAABAAAAAAAAAAAAEBAAAQAQAAA=</HashCode>
+      <FileName>DFT.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DFT::DFTData" Collapsed="true">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgAAAAQAAAAAIAAEAAAEQAAAAAAAAAAA=</HashCode>
+      <FileName>DFTData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DFT::DFTTime" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DFTData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DFT::DFTFrequency" Collapsed="true">
+    <Position X="7" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>DFTData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DFT::DFTGeneric" Collapsed="true">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAQgAAYAAAAAIAAEAQBEQAAIAAAAAAAA=</HashCode>
+      <FileName>DFTGeneric.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DFT::DFTGenericTime" Collapsed="true">
+    <Position X="3.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DFTGeneric.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DFT::DFTGenericFrequency" Collapsed="true">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DFTGeneric.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DFT::DFTMatlab" Collapsed="true">
+    <Position X="10.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIIAAAAgAAAAAACAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>DFTMatlab.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wave::WaveChunk&lt;T&gt;" Collapsed="true">
+    <Position X="12.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAhAKAAAAAgAAAACAAABIAAAAAAAAAAAA=</HashCode>
+      <FileName>WaveChunk.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wave::Word" Collapsed="true">
+    <Position X="9" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAAAAAAAgACACAAIBQABAAEAABAAAAggBAAABEA=</HashCode>
+      <FileName>WaveWord.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wave::WaveFile" Collapsed="true">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAC0AAARCAQAKAAiGcgAIAQIgCEEEgFyAAUACCAACEA=</HashCode>
+      <FileName>WaveFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wave::WaveBlock&lt;T&gt;" Collapsed="true">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAACAAABAARACAAAEAAAABAgAhAAAAAAE=</HashCode>
+      <FileName>WaveBlock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StackWalker" Collapsed="true">
+    <Position X="9" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAiAAAQAAAAQABBAAAICABAIAAAIIAAQAAAAAAAAA=</HashCode>
+      <FileName>StackWalker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exception" Collapsed="true">
+    <Position X="12.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEAAAAAMAAACAAAAgAAAAAAAgAAAAAIIBAAAAAAQA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Wave::Endianess" Collapsed="true">
+    <Position X="9" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>WaveMisc.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

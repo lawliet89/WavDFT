@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Wave">
+      <UniqueIdentifier>{d32df1d1-7b22-42ec-86db-dfa9e95cb9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Wave">
+      <UniqueIdentifier>{ba6c71d1-5e77-4d1c-847b-5016a82a57fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DFT">
+      <UniqueIdentifier>{111b778b-515f-48b0-8eff-105d72ba2469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{681f9dcd-8450-4c85-9cba-5c15660318b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{e0dcd8f7-782e-4aba-8205-d5deb59b834b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DFT">
+      <UniqueIdentifier>{b99a2611-d9df-4996-b8f1-fbc03e1e3672}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WaveFile.cpp">
+      <Filter>Source Files\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveWord.cpp">
+      <Filter>Source Files\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveMisc.cpp">
+      <Filter>Source Files\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StackWalker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DFTGeneric.cpp">
+      <Filter>Source Files\DFT</Filter>
+    </ClCompile>
+    <ClCompile Include="DFTMatlab.cpp">
+      <Filter>Source Files\DFT</Filter>
+    </ClCompile>
+    <ClCompile Include="DFTUtility.cpp">
+      <Filter>Source Files\DFT</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UiWave.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UiMatlab.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WaveChunk.h">
+      <Filter>Header Files\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveWord.h">
+      <Filter>Header Files\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveFile.h">
+      <Filter>Header Files\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveMisc.h">
+      <Filter>Header Files\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveBlock.h">
+      <Filter>Header Files\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StackWalker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DFT.h">
+      <Filter>Header Files\DFT</Filter>
+    </ClInclude>
+    <ClInclude Include="DFTData.h">
+      <Filter>Header Files\DFT</Filter>
+    </ClInclude>
+    <ClInclude Include="DFTMatlab.h">
+      <Filter>Header Files\DFT</Filter>
+    </ClInclude>
+    <ClInclude Include="DFTGeneric.h">
+      <Filter>Header Files\DFT</Filter>
+    </ClInclude>
+    <ClInclude Include="DFTUtility.h">
+      <Filter>Header Files\DFT</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UiWave.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UiMatlab.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Class Diagrams\Class Diagram.cd">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

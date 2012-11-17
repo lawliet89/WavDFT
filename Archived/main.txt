@@ -1,0 +1,19 @@
+	/*
+	Wave::WaveFile InputWave("Files/eg1.wav");
+	InputWave.Parse();
+	cout << "File loaded and parsed" << endl;
+	InputWave.DataLoad();
+	cout << "Data Loaded into memory" << endl;
+	Ui::DumpWaveTimeDomain(InputWave,"Files/test.csv");
+	cout << "Data dumped" << endl;
+	InputWave.DataUnload();
+	cout << "Data unloaded" << endl;
+
+	DFT::DFTGenericFrequency Freq(InputWave.NumChannels(), InputWave.DFTInterval(), InputWave.NumSamples());
+	DFT::DFTMatlab Matlab(dynamic_cast<DFT::DFTTime*>(&InputWave), dynamic_cast<DFT::DFTFrequency*>(&Freq));
+	Matlab.DiscreteFourierTransform();
+
+	DFT::DumpFile(dynamic_cast<DFT::DFTFrequency*>(&Freq), "files/dft.csv");
+	//engSetVisible(Matlab.GetEngine(), true);
+	Ui::Continue();
+	*/
